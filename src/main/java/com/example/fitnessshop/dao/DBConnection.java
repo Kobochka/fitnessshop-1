@@ -20,7 +20,7 @@ public class DBConnection {
 			LOG.info("Mysql Driver registered");
 			
 			// get hold of the driver manager to establish to connection
-			connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/fitnessshopdb?autoReconnect=true&useSSL=false", "root", "kobochka13");
+			connection = DriverManager.getConnection("jdbc:mysql://node186867-env-9648435.jelastic.regruhosting.ru/fitnessshopdb?autoReconnect=true&useSSL=false", "root", "ABVbhm54844");
 			LOG.info("Connection to Mysql database successfully");
 			
 		} catch (ClassNotFoundException e) {
